@@ -4,8 +4,8 @@ export const portfolioDetails = [
     {
         id: 1,
         heroIcon: 'Stylus_Fountain_Pen',
-        heroImage: 'Resources/portfolio/Wacom-Drivers/Wacom.png',
-        thumbnailImage: 'Resources/portfolio/Wacom-Drivers/Wacom-thumb.png',
+        heroImage: 'Resources/Portfolio/Wacom-Drivers/Wacom.png',
+        thumbnailImage: 'Resources/Portfolio/Wacom-Drivers/Wacom-thumb.png',
         name: 'Wacom Redesign Case Study',
         description: 'Driver Software for drawing Display/Tablets',
         tags: {
@@ -71,8 +71,8 @@ export const portfolioDetails = [
     {
         id:2,
         heroIcon: 'Liquor',
-        heroImage: 'Resources/portfolio/Stomping-Grapes-Website/grapes.png',
-        thumbnailImage: 'Resources/portfolio/Stomping-Grapes-Website/grapes-thumb.png',
+        heroImage: 'Resources/Portfolio/Stomping-Grapes-Website/grapes.png',
+        thumbnailImage: 'Resources/Portfolio/Stomping-Grapes-Website/grapes-thumb.png',
         name: 'Stomping Grapes Website',
         description: 'A website to help you pick the right wine for whatever occasion',
         tags: {
@@ -96,9 +96,9 @@ export const portfolioDetails = [
             Ab: 'Resources/Portfolio/Stomping-Grapes-Website/understanding-problem/Ab.png',
 
             understandingTheProblem: [
-                'Resources/portfolio/Stomping-Grapes-Website/understanding-problem/moodboard.png',
-                'Resources/portfolio/Stomping-Grapes-Website/understanding-problem/moodboard-2.png',
-                'Resources/portfolio/Stomping-Grapes-Website/understanding-problem/moodboard-3.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/understanding-problem/moodboard.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/understanding-problem/moodboard-2.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/understanding-problem/moodboard-3.png',
             ],
             developingSolution: [
                 'Resources/portfolio/Stomping-Grapes-Website/developing-solution/ab-2.png',
@@ -130,7 +130,7 @@ export const portfolioDetails = [
                 'Resources/Portfolio/Stomping-Grapes-Website/final-designs/Checkout-page-Complete.png',
             ],
             finalDeliverables: [
-                'Resources/portfolio/Stomping-Grapes-Website/video/account',
+                'Resources/Portfolio/Stomping-Grapes-Website/video/account',
             ],
             
         }
@@ -138,8 +138,8 @@ export const portfolioDetails = [
     {
         id:3,
         heroIcon: 'Mountain_Flag',
-        heroImage: 'Resources/portfolio/Ascend-APP/ascend.png',
-        thumbnailImage: 'Resources/portfolio/Ascend-APP/ascend-thumb.png',
+        heroImage: 'Resources/Portfolio/Ascend-APP/ascend.png',
+        thumbnailImage: 'Resources/Portfolio/Ascend-APP/ascend-thumb.png',
         name: 'Ascend Bouldering App',
         description: 'An app for documenting your jounrney into climbing culture',
         tags: {
@@ -153,41 +153,41 @@ export const portfolioDetails = [
 
         artifacts: {
 
-            compAnalysis: 'Resources/portfolio/Ascend-APP/understanding-problem/Comp analysis.png',
-            arch1: 'Resources/portfolio/Ascend-APP/understanding-problem/Archetype - 1 - Route Setter.png',
-            arch2: 'Resources/portfolio/Ascend-APP/understanding-problem/Archetype - 2 - Climber.png',
-            empathyMap1: 'Resources/portfolio/Ascend-APP/understanding-problem/🔒⚒️ Route Setter.png',
-            empathyMap2: 'Resources/portfolio/Ascend-APP/understanding-problem/👊👊 CLIMBER.png',
-            card1: 'Resources/portfolio/Ascend-APP/developing-solution/route-1.png',
-            card2: 'Resources/portfolio/Ascend-APP/developing-solution/climb-1.png',
-            flow1: 'Resources/portfolio/Ascend-APP/developing-solution/🔒⚒️ Route Setter -_ Building Route.png',
-            flow2: 'Resources/portfolio/Ascend-APP/developing-solution/👊👊 CLIMBER -_ Navigating.png',
-            journey1: 'Resources/portfolio/Ascend-APP/designing-concept/Customer-Journey-map-1.png',
-            journey2: 'Resources/portfolio/Ascend-APP/designing-concept/Customer-Journey-2.png',
-            brand1: 'Resources/portfolio/Ascend-APP/brandAesthetics/brand-1.png',
-            brand2: 'Resources/portfolio/Ascend-APP/brandAesthetics/brand-2.png',
-            brand3: 'Resources/portfolio/Ascend-APP/brandAesthetics/brand-3.png',
+            compAnalysis: 'Resources/Portfolio/Ascend-APP/understanding-problem/Comp analysis.png',
+            arch1: 'Resources/Portfolio/Ascend-APP/understanding-problem/Archetype - 1 - Route Setter.png',
+            arch2: 'Resources/Portfolio/Ascend-APP/understanding-problem/Archetype - 2 - Climber.png',
+            empathyMap1: 'Resources/Portfolio/Ascend-APP/understanding-problem/🔒⚒️ Route Setter.png',
+            empathyMap2: 'Resources/Portfolio/Ascend-APP/understanding-problem/👊👊 CLIMBER.png',
+            card1: 'Resources/Portfolio/Ascend-APP/developing-solution/route-1.png',
+            card2: 'Resources/Portfolio/Ascend-APP/developing-solution/climb-1.png',
+            flow1: 'Resources/Portfolio/Ascend-APP/developing-solution/🔒⚒️ Route Setter -_ Building Route.png',
+            flow2: 'Resources/Portfolio/Ascend-APP/developing-solution/👊👊 CLIMBER -_ Navigating.png',
+            journey1: 'Resources/Portfolio/Ascend-APP/designing-concept/Customer-Journey-map-1.png',
+            journey2: 'Resources/Portfolio/Ascend-APP/designing-concept/Customer-Journey-2.png',
+            brand1: 'Resources/Portfolio/Ascend-APP/brandAesthetics/brand-1.png',
+            brand2: 'Resources/Portfolio/Ascend-APP/brandAesthetics/brand-2.png',
+            brand3: 'Resources/Portfolio/Ascend-APP/brandAesthetics/brand-3.png',
             
 
             understandingTheProblem: [
-                'Resources/portfolio/Ascend-APP/understanding-problem/prob-1.png',
-                'Resources/portfolio/Ascend-APP/understanding-problem/prob-2.png',
-                'Resources/portfolio/Ascend-APP/understanding-problem/prob-3.png'
+                'Resources/Portfolio/Ascend-APP/understanding-problem/prob-1.png',
+                'Resources/Portfolio/Ascend-APP/understanding-problem/prob-2.png',
+                'Resources/Portfolio/Ascend-APP/understanding-problem/prob-3.png'
                 
             ],
             developingSolution: [
-                'Resources/portfolio/Ascend-APP/developing-solution/dev-1.png',
-                'Resources/portfolio/Ascend-APP/developing-solution/dev-2.png',
-                'Resources/portfolio/Ascend-APP/developing-solution/dev-3.png',
-                'Resources/portfolio/Ascend-APP/developing-solution/dev-4.png',
+                'Resources/Portfolio/Ascend-APP/developing-solution/dev-1.png',
+                'Resources/Portfolio/Ascend-APP/developing-solution/dev-2.png',
+                'Resources/Portfolio/Ascend-APP/developing-solution/dev-3.png',
+                'Resources/Portfolio/Ascend-APP/developing-solution/dev-4.png',
             ],
             designingConcept: [
-                'Resources/portfolio/Ascend-APP/designing-concept/des-1.png',
-                'Resources/portfolio/Ascend-APP/designing-concept/des-2.png',
-                'Resources/portfolio/Ascend-APP/designing-concept/des-3.png',
+                'Resources/Portfolio/Ascend-APP/designing-concept/des-1.png',
+                'Resources/Portfolio/Ascend-APP/designing-concept/des-2.png',
+                'Resources/Portfolio/Ascend-APP/designing-concept/des-3.png',
             ],
             brandAesthetics: [
-                'Resources/portfolio/Ascend-APP/brandAesthetics/brand-4.png',
+                'Resources/Portfolio/Ascend-APP/brandAesthetics/brand-4.png',
             ],
             finalDesigns: [
                 'Resources/Portfolio/Ascend-APP/final-designs/dev-01.png',
