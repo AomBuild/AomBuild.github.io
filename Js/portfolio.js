@@ -32,13 +32,13 @@ export const portfolioDetails = [
                 'Resources/Portfolio/Wacom-Drivers/understanding-problem/Screen-4.png',
             ],
             developingSolution: [
-                'Resources/portfolio/Wacom-Drivers/developing-solution/ProductResearch-1.png',
+                'Resources/Portfolio/Wacom-Drivers/developing-solution/ProductResearch-1.png',
             ],
             designingConcept: [
-                'Resources/Portfolio/Wacom-Drivers/designing-Concept/ideation1.jpg',
-                'Resources/Portfolio/Wacom-Drivers/designing-Concept/ideation2.jpg',
-                'Resources/Portfolio/Wacom-Drivers/designing-Concept/ideation3.jpg',
-                'Resources/Portfolio/Wacom-Drivers/designing-Concept/ideation4.jpg',
+                'Resources/Portfolio/Wacom-Drivers/designing-concept/ideation1.jpg',
+                'Resources/Portfolio/Wacom-Drivers/designing-concept/ideation2.jpg',
+                'Resources/Portfolio/Wacom-Drivers/designing-concept/ideation3.jpg',
+                'Resources/Portfolio/Wacom-Drivers/designing-concept/ideation4.jpg',
             ],           
             brandAesthetics: [
                 'Resources/Portfolio/Wacom-Drivers/brandAesthetics/Brandin-guidelines.png',
@@ -101,14 +101,14 @@ export const portfolioDetails = [
                 'Resources/Portfolio/Stomping-Grapes-Website/understanding-problem/moodboard-3.png',
             ],
             developingSolution: [
-                'Resources/portfolio/Stomping-Grapes-Website/developing-solution/ab-2.png',
-                'Resources/portfolio/Stomping-Grapes-Website/developing-solution/ab-3.png',
-                'Resources/portfolio/Stomping-Grapes-Website/developing-solution/ab-4.png',
-                'Resources/portfolio/Stomping-Grapes-Website/developing-solution/ab-5.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/developing-solution/ab-2.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/developing-solution/ab-3.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/developing-solution/ab-4.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/developing-solution/ab-5.png',
             ],
             designingConcept: [
-                'Resources/portfolio/Stomping-Grapes-Website/designing-concept/Checkout-page-3.png',
-                'Resources/portfolio/Stomping-Grapes-Website/designing-concept/product-page.png',                
+                'Resources/Portfolio/Stomping-Grapes-Website/designing-concept/Checkout-page-3.png',
+                'Resources/Portfolio/Stomping-Grapes-Website/designing-concept/product-page.png',                
             ],
             brandAesthetics: [
                 'Resources/Portfolio/Stomping-Grapes-Website/brandAesthetics/Brandin-guidelines.png',
