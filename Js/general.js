@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     `
         <ul class="navbar">
 
-            <li class="brand"> <a href="Home-Page.html"> Alessandro Metaxas</a> </li>
+            <li class="brand"> <a href="index.html"> Alessandro Metaxas</a> </li>
 
             <div class="nav-container-parent">
                 
