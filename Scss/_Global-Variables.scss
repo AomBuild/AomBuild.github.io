@@ -1,0 +1,195 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+
+    // #region GLOBAL TOKENS
+
+        // #region Color Tokens 
+
+            // amber-orange
+
+                $colour-amber-orange-100: #ffecb3;
+                $colour-amber-orange-200: #ffe082;
+                $colour-amber-orange-300: #ffd54f;
+                $colour-amber-orange-400: #ffca28;
+                $colour-amber-orange-50: #fff8e1;
+                $colour-amber-orange-500: #ffc107;
+                $colour-amber-orange-600: #ffb300;
+                $colour-amber-orange-700: #ffa000;
+                $colour-amber-orange-800: #ff8f00;
+                $colour-amber-orange-900: #ff6f00;
+            
+            // aqua-green
+
+                $colour-aqua-green-100: #a6fee9;
+                $colour-aqua-green-200: #52ffda;
+                $colour-aqua-green-300: #00fac9;
+                $colour-aqua-green-400: #00f1bb;
+                $colour-aqua-green-50: #dcfff7;
+                $colour-aqua-green-500: #00e9af;
+                $colour-aqua-green-600: #00d89f;
+                $colour-aqua-green-700: #00c58c;
+                $colour-aqua-green-800: #00b47d;
+                $colour-aqua-green-900: #00945c;
+                
+            // cherry-red
+
+                $colour-cherry-red-100: #ffcfd8;
+                $colour-cherry-red-200: #f79da4;
+                $colour-cherry-red-300: #f17580;
+                $colour-cherry-red-400: #ff5260;
+                $colour-cherry-red-50: #ffecf1;
+                $colour-cherry-red-500: #ff3c47;
+                $colour-cherry-red-600: #f83347;
+                $colour-cherry-red-700: #e52840;
+                $colour-cherry-red-800: #d82038;
+                $colour-cherry-red-900: #c90e2c;
+
+            // cool-black
+
+                $colour-cool-black-100: #f8f6ff;
+                $colour-cool-black-200: #f3f1fb;
+                $colour-cool-black-300: #ecebf4;
+                $colour-cool-black-400: #cbc9d2;
+                $colour-cool-black-50: #fdfbff;
+                $colour-cool-black-500: #adacb4;
+                $colour-cool-black-600: #83818a;
+                $colour-cool-black-700: #6e6d75;
+                $colour-cool-black-800: #4e4d55;
+                $colour-cool-black-900: #2c2b32;
+
+            // plain-black
+
+                $colour-plain-black-100: #fafafa;
+                $colour-plain-black-200: #f5f5f5;
+                $colour-plain-black-300: #f0f0f0;
+                $colour-plain-black-400: #dedede;
+                $colour-plain-black-50: #ffffff;
+                $colour-plain-black-500: #c2c2c2;
+                $colour-plain-black-600: #979797;
+                $colour-plain-black-700: #818181;
+                $colour-plain-black-800: #606060;
+                $colour-plain-black-900: #3c3c3c;
+
+            // vibe-black
+
+                $colour-vibe-black-100: #f3f0ff;
+                $colour-vibe-black-200: #eae7f7;
+                $colour-vibe-black-300: #b6b4c3;
+                $colour-vibe-black-400: #b6b4c3;
+                $colour-vibe-black-50: #f9f7ff;
+                $colour-vibe-black-500: #9694a3;
+                $colour-vibe-black-600: #6e6c7a;
+                $colour-vibe-black-700: #5a5866;
+                $colour-vibe-black-800: #3b3a46;
+                $colour-vibe-black-900: #1b1a25;
+
+            // Text Colour Global
+
+                $colour-white-opacity-20: #ffffff33;
+                $colour-white-opacity-40: #ffffff66;
+                $colour-white-opacity-60: #ffffff99;
+                $colour-white-opacity-90: #ffffffe5;
+
+                $colour-black-opacity-20: #00000033;
+                $colour-black-opacity-40: #00000066;
+                $colour-black-opacity-60: #00000099;
+                $colour-black-opacity-90: #000000e5;
+
+        // #endregion Color Tokens
+
+        // #region values
+
+            //Radius
+
+                $radius-sm: 4px;
+                $radius-md: 8px;
+                $radius-lg: 16px;
+                $radius-xl: 32px;
+                $radius-2xl: 128px;
+                $radius-3xl: 360px;
+
+            //Size
+
+                $size-xs: 12px;
+                $size-sm: 14px;
+                $size-md: 16px;
+                $size-lg: 18px;
+                $size-xl: 20px;
+                $size-gt: 24px;
+
+            //Padding
+
+                $spacing-nill: 0px;
+                $spacing-0: 4px;
+                $spacing-1: 8px;
+                $spacing-2: 16px;
+                $spacing-3: 24px;
+                $spacing-4: 32px;
+                $spacing-5: 40px;
+                $spacing-6: 48px;
+                $spacing-7: 56px;
+                $spacing-8: 64px;
+                $spacing-9: 72px;
+                $spacing-10: 80px;
+                
+        // #endregion values
+
+        // #region  Typography
+
+            //Point
+        
+                $typography-point-low-avg: 10px;
+                $typography-point-below-avg: 12px;
+                $typography-point-avg: 14px;
+                $typography-point-above-avg: 16px;
+                $typography-point-high-avg: 18px;
+
+            //Family
+
+                $typography-family-primary: "Roboto", sans-serif;
+
+            //Height
+            
+                $typography-height-xs: 0;
+                $typography-height-sm: 4;
+                $typography-height-md: 6;
+                $typography-height-lg: 8;
+                $typography-height-xl: 10;
+            
+            //Weight
+                $typography-weight-regular: 300;
+                $typography-weight-medium: 500;
+                $typography-weight-semi-bold: 600;
+                $typography-weight-bold: 800;
+
+        // #endregion  Typography              
+    
+        // #endregion GLOBAL TOKENS                
+
+    // #region Alias Tokens
+
+        // #region Colour Tokens
+
+            $low-emphasis-white: $colour-white-opacity-40;
+            $medium-emphasis-white: $colour-white-opacity-60;
+            $high-emphasis-white: $colour-white-opacity-90;
+
+            $low-emphasis-black: $colour-black-opacity-40;
+            $medium-emphasis-black: $colour-black-opacity-60;
+            $high-emphasis-black: $colour-black-opacity-90;
+
+            
+
+        // #region Card Surface
+
+            $card-surface: 0 0px 4px $colour-black-opacity-20;
+            
+
+        // #endregion Card Surface
+
+
+        $background-colour: $colour-plain-black-200;
+        
+    

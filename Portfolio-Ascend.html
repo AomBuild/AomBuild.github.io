@@ -1,0 +1,462 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ascend Bouldering App</title>
+
+    <link rel="stylesheet" href="Scss/General-Styling.css">
+    <link rel="stylesheet" href="Scss/Component-Styling.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" /> <!-- Import Material design -->
+
+
+    <script src="Js/general.js"></script>
+    <script src="Js/portfolio.js"></script>
+
+    <!--NOTE* MODULE IS IMPORTANT IF YOU'RE IMPORTING AND EXPORTING VARIABLES-->
+
+    <!-- JS FOR STRICTLY THIS HTML-->
+    <script type="module" src="Portfolio-Ascend.js"></script>
+    <script type="module" src="Js/general.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="navbar-id"></div>
+
+    <div class="hero-portfolio " name="Hero thumbnail"></div>
+
+    <section class="vertical-align " name="Overview ">
+
+        <div>
+            <div class="pf-highlight-box ascend">
+
+                <h1>Overview</h1>
+
+                <p> 
+                    Bouldering is one of my hobbies, climbing plastic rocks in a gym or going outoors and finding some real rocks to play with
+                    is an activity i find enjoyable.
+                    <br><br>
+                    During my experience in climbing gyms, its hard to know what routes are available, are unavailable due to resets or
+                    which gyms are good based on their routes difficulty, style and quality of holds.
+                    <br><br>
+                    There are exisiting apps out in the market, however I believe there is an opportunity to provide more transparency to what a gym offers.
+                    Providing <span class="bolden-text">Climbers</span> a backlog and history of all the climbs they have done; as well as <span class="bolden-text"> Route Setters</span> the ability
+                    to have that same backlog: one, to showcase their portfolio and two, for them to look back over the climbs, the projects created.
+                </p>
+
+                <div class="portfolio-image-group#1" onload=""></div>
+
+            </div>
+        </div>       
+    </section>
+
+    <section class="vertical-align " name="Understanding the problem">
+
+        <div class="heading-div">
+            
+            <h1> <span class="material-symbols-Rounded heading-icon no-copy">Architecture</span> Understanding the Problem</h1>
+            <div class="border-line"></div>
+        </div>
+
+        <div class="text-detail">   
+            <p> 
+                The problem is lack of communication from Gym Owners to Router Setters to Climbers and in reverse. However the solution
+                needed has to achieve three things:
+                <ol>
+                    <li class="bolden-text">Projects/Routes easily available for climbers to see.</li> 
+                    <li class="bolden-text">Route Setters to easily upload route to a platform.</li>
+                    <li class="bolden-text">Gym Owners to manage the account</li>
+                </ol>
+            </p>
+            <p>
+                Three different users, each with a different goal and focus. This was uncovered through my sessions at various gyms throughout
+                Victoria, but conversations with Gym Owners, Route Setter and other Climbers; all three communciated some of these issues to me,
+                therefore i knew where to start looking.
+            </p>
+                
+            
+
+        </div>
+
+        <div data-carousel class="carousel-visual"></div>    
+        
+        <div class="text-detail">   
+            <p> 
+                Firstly I looked at the <span data-text-highlight>Competition</span> and broke down what they had to offer, what was their focus, 
+                who were they targetting and how did this shape their experience?
+                <br><br>
+                Secondly I used the previous discussions and built <span data-text-highlight>Archetype #1 | Route Setter / Owner</span> and 
+                <span data-text-highlight>Archetype #2 | Climber</span>, reason for the combination of the Owner and Route Setter into one artifact
+                was due to the similarity in focus and goals.
+                <br><br>
+                Afterwards I created empathy maps based off discussions to refine my understanding of these groups.              
+            </p>
+            <ol>
+                <li> <span data-text-highlight>Emapthy Map #1 | Route Setter / Owner</span></li>
+                <li> <span data-text-highlight>Emapthy Map #2 | Climber</span></li>
+            </ol>
+            <p>
+                These helped to provide an additional level of how these two types of user think, I can always refer to these artifacts when it comes
+                to making design decisions.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="vertical-align " name="Developing a Solution">
+
+        <div class="heading-div">
+            
+            <h1><span class="material-symbols-Rounded heading-icon no-copy">Rocket</span>Developing a Solution</h1>
+            <div class="border-line"></div>
+        </div>
+
+        <div class="text-detail">   
+            <p>
+                Now that we have a pool of research to refer back to when devising solutions, we can look at building some rough concepts to understand
+                how all this would work.
+                <br><br>
+                I did some basic <span data-text-highlight>Card Sorting #1</span> and <span data-text-highlight>Card Sorting #2</span> exercises based on 
+                the research collected to provide a hierachy of what most to least important.
+                <br><br>
+                After that I went straight to creating <span data-text-highlight>User Flow #1</span> and <span data-text-highlight>User Flow #2</span>
+                to have a visual map of that experience from point a to point b. This was crucial to get right, without it, devising an experience this
+                complicated would push out the timeline for this project.
+            </p>
+
+        </div>
+
+        <div> 
+            <div data-carousel class="carousel-visual"></div>
+        </div>      
+    </section>
+
+    <section class="vertical-align " name="Designing the Concept">
+
+        <div class="heading-div">
+            
+            <h1><span class="material-symbols-Rounded heading-icon no-copy">Design_Services</span>Designing the Concept</h1>
+            <div class="border-line"></div>
+        </div>
+
+        <div class="text-detail">   
+            <p> 
+                When designing the initial screens, i often referred back to some of the material created beforehand plus addiitonal 
+                artifacts that i created from interviews and research to help provide reason for the design decision.
+                <br><br>
+                I created additional artifacts here below:
+            </p>
+            <ol>
+                <li data-text-highlight> Customer Journey Map - Route Setter / Owner</li>
+                <li data-text-highlight> Customer Journey Map - Climber</li>
+            </ol>
+            <p>
+                These would help me to look back and have a think about positioning this app/screen during that journey. The device used
+                and in what part of the journey would this experience fit im?
+                <br><br>
+                Before visiting was obvious, but at the point they enter a gym, how and when will they pull up the app to check, and what
+                would they check first? This line of thinking influenced how I designed the Architecture for the app.
+            </p>
+
+        </div>
+
+        <div data-carousel class="carousel-visual"></div>
+        
+    </section>
+
+    <section class="vertical-align " name="Company Brand Aesthetics ">
+
+        <div class="heading-div">
+            
+            <h1><span class="material-symbols-Rounded heading-icon no-copy">Wall_Art</span>Company Brand Aesthetics </h1>
+            <div class="border-line"></div>
+        </div>
+
+        <div class="text-detail">   
+            <p> 
+                This project i created the brand that would encompass this experience. Through exploration, i came to the brand
+                <span class="bolden-text">Ascend</span>, following the name, led to the percpetion i wanted to give the brand,
+                creating an aesthetic that would appeal to the community i was designing this for.
+                <br><br>
+                I followed a typical flow for graphic design:
+            </p>
+            <ol>
+                <li>I created a brief that would outline what the brand is about.</li>
+                <li>Created a moodboard to capture the vision for the brand.</li>
+                <li>Highlighted key text from the brief in combination with reference to create the <span data-text-highlight>logo</span>.</li>
+                <li>Two <span data-text-highlight>typefaces</span> were picked, one to reflect the brand image and the other for legibility which is standard practice.</li>
+                <li>Trial and error with <span data-text-highlight>colour</span>.</li>
+                <li>Adapt the orginal screens to follow the brand guidelines.</li>
+            </ol>
+
+        </div>
+
+        <div> 
+            <div data-carousel class="carousel-visual"></div>
+        </div>       
+    </section>
+
+    <section class="vertical-align " name="Final Designs ">
+
+        <div class="heading-div">
+            
+            <h1><span class="material-symbols-Rounded heading-icon no-copy">Screenshot_Monitor</span>Final Designs </h1>
+            <div class="border-line"></div>
+        </div>
+
+        <div class="text-detail">   
+            <p> 
+                Final screens that encompass majority of the user experiences, navigate them below.
+            </p>
+
+        </div>
+
+        <div> 
+            <div data-carousel class="carousel-visual"></div>
+        </div>       
+    </section>
+
+    <section class="vertical-align " name="Final Deliverables ">
+
+        <div class="heading-div">
+            
+            <h1><span class="material-symbols-Rounded heading-icon no-copy">Polyline</span>Final Deliverables </h1>
+            <div class="border-line"></div>
+        </div>
+
+        <div class="video-container flex-right">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Feed.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Feed</span> Feed Section
+                </h1>
+                <p> 
+                    This section encompasses all the updates available to the user based on the gyms selected in the filter above.
+                    <br><br>
+                    There they can filter the specific gyms if necessary, but this will allow them to be notified of any new routes,
+                    as well as updates pertaining to business hours or events. Transparency and accessibility being the primary 
+                    focus for this function.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="video-container flex-left">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Map-Route.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Map</span>Map Navigation
+                </h1>
+                <p> 
+                    Here you can navigate and see what climbs are available, swap to whichever gym you are visiting.
+                    <br><br>
+                    Navigate the environment without too much graphical elements bombarding users with information 
+                    that is not important to them nor provides much value to justify.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="video-container flex-right">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Route-Profile.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Person_Pin</span>Profile
+                </h1>
+                <p> 
+                    The profile consists of:
+                    <br><span class="bolden-text">(1) Projects -</span> List of all your climbs you are watching or have completed/
+                    <br><span class="bolden-text">(2) Save Post - </span> Information you want to remember and keep in your loop.
+                    <br><span class="bolden-text">(3) Metrics -</span> information to keep you on track and see how well you are doing.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="video-container flex-left">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Profile-Review.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Reviews</span>Route Metrics / Reviews
+                </h1>
+                <p> 
+                    Having information about the climb was another essential part of this product, having the ability to see what
+                    others have said or felt the climb is like, providing transparency to those who want to know; also allows route
+                    setters to see how their project is being perceived.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="video-container flex-right">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Profile-Metric.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Dashboard</span>Profile Metrics
+                </h1>
+                <p> 
+                    key indicators to help keep track of how many climbs you have accomplished during your bouldering years, these add some
+                    key figures to allow users to track what they have accomplished. However not going too over the top and drowing them in
+                    statistics and data which can be overwhelming.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="video-container flex-left">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Settings.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Settings</span>Settings Section
+                </h1>
+                <p> 
+                    This isn't as glamerous compared to the other areas of this project, but necessary depending on how YOU want the project to build / scale
+                    over time, this contributes to the biggest pain-points in any software / app where users have to configure basic to more advance settings.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="video-container flex-right">
+
+            <div class="laptop-device">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Laptop.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Laptop_Mac</span>Laptop UX
+                </h1>
+                <p> 
+                    The laptop (Also applies to desktop setups too) is for front of house where most staff reside. whether
+                    they are welcoming in climbers and checking up in the system, that is the reason for having an experience
+                    for this aspect ratio.
+                </p>
+
+            </div>
+
+            
+        </div>
+        
+        <div class="video-container flex-left">
+
+            <div class="tablet-device">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Tablet.mp4"></video>
+            </div>
+            
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Tablet</span>Tablet UX
+                </h1>
+                <p> 
+                    This is not in all gyms admitingly, but I have seen many (Australia and United kingdom) utalise tablets, either for quick sign ups
+                    or siging any OHS forms. However this experience would also match for Route setters too if gyms have the technology available.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="video-container flex-right">
+
+            <div class="video-mobile">
+                <video loop autoplay muted playsinline src="Resources/Portfolio/Ascend-APP/video/Mobile.mp4"></video>
+            </div>
+
+            <div class="deliverables-text">
+                <h1>
+                   <span class="material-symbols-Rounded no-copy">Mobile</span>Mobile UX
+                </h1>
+                <p> 
+                    This is the mian experience, this platform was the most crucial one to get right, hence why the approach i took was to design the
+                    mobile experience first then build from there. This is typically commonn place for apps as designing with limited screen architecture
+                    imposes restrictions which means more difficulty.
+                </p>
+
+            </div>
+
+            
+        </div>
+
+            
+    </section>
+
+    <section class="vertical-align " name="Conclusion ">
+
+        <div>
+            <div class="pf-highlight-box ascend">
+
+                <h1>Conclusion</h1>
+
+                <p> 
+                    This project was more difficult, considering this involved creating flows for regular day to day tasks plus onboarding, the latter which
+                    did change elements of the flow, however would increase adoption rates due to the quick and easy method of signing up.
+                    <br><br>
+                    This project in particular was more technical due to what flows were accounted for, and designing for a mobile experience does tend to
+                    add more difficult due to the 'limited' screen infrastructure available.
+                    <br><br>
+                    However this product was successful when pitching to the various users recruited for this experience. Solved the problems identified and <thead>
+                    branding for the product was well received.
+                    </thead>
+                </p>
+
+                <div class="portfolio-image-group#1" onload=""></div>
+
+            </div>
+        </div>       
+    </section>
+
+    <div class="other-portfolio" name="Portfolio showcase"> </div>
+
+
+
+
+    <footer>
+
+        <p id="footer"></p>
+    </footer>
+
+
+    
+</body>
+</html>
