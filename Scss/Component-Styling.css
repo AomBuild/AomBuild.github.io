@@ -17,6 +17,7 @@
 }
 .navbar .brand {
   float: left;
+  margin-right: 20px;
 }
 .navbar .nav-container-parent {
   display: flex;
