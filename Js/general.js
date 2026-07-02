@@ -212,8 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener("click", () => {
 
             const CVlink = document.createElement("a");
-            CVlink.href = "/Resources/Files/AlessandroMetaxas_CV_TEMP.pdf";
-            CVlink.download = "AlessandroMetaxas_CV_TEMP.pdf";
+            CVlink.href = "/Resources/Files/Alessandro Metaxas CV.pdf";
+            CVlink.download = "Alessandro Metaxas CV.pdf";
             CVlink.click();
 
             
