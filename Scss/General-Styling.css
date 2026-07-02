@@ -207,6 +207,7 @@ li {
   gap: 12px;
   width: 30%;
   min-width: 280px;
+  max-width: 348px;
 }
 .about-container .about-content .ul-content .ul-column .about-text {
   display: flex;
@@ -224,7 +225,6 @@ li {
 .about-container .about-content .ul-content .ul-column img {
   height: 514px;
   width: 448px;
-  border-radius: 14px;
 }
 .about-container .about-content .ul-content .ul-column .scroll {
   overflow: auto;
@@ -370,10 +370,11 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 420px;
-  width: 420px;
+  max-height: 420px;
+  max-width: 420px;
+  min-width: 350px;
   overflow: hidden;
-  border-radius: 10000px;
+  border-radius: 20px;
 }
 
 .product-portfolio {
