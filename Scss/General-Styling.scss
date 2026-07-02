@@ -290,7 +290,7 @@
         min-height: auto;
         max-width: 1182px;
 
-        min-width: 280px;
+        width: 80%;
 
         padding: 40px 20px;
         margin: 0px 20px;
@@ -308,97 +308,74 @@
 
         
 
-        .about-content {
+        .ul-content {
 
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            justify-content: center;
             
+
             gap: 20px;
 
-            min-height: 540px;
+            overflow: hidden;                         
+            
 
-
-            .ul-content {
-
+            .ul-column {
+                
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-
-                justify-content: center;
+                flex-direction: column;
                 
 
-                gap: 20px;
+                gap: 12px;
+                
+                width: 30%;
+                min-width: 280px;
 
-                overflow: hidden;
+                max-width: 348px;
 
                 
+                
 
-                .custom-adjust {
+                
+                .about-text {
 
                     display: flex;
                     flex-direction: column;
-
-                    justify-content: center;
-                }
-                                
                 
+                    gap: 8px;
 
-                .ul-column {
-                    
-                    display: flex;
-                    flex-direction: column;
-                    
+                    width: 100%;
+                    max-height: 546px;
 
-                    gap: 12px;
-                    
-                    width: 30%;
-                    min-width: 280px;
+                    h1 {
+                        font-size: gv.$typography-point-avg;
 
-                    max-width: 348px;
-
-                    
-                    
-
-                    
-                    .about-text {
-
-                        display: flex;
-                        flex-direction: column;
-                    
-                        gap: 8px;
-
-                        width: 100%;
-                        max-height: 546px;
-
-                        h1 {
-                            font-size: gv.$typography-point-avg;
-
-                        }
-                        p {
-
-                            font-size: gv.$typography-point-above-avg;   
-                        }
                     }
+                    p {
 
-                    img {
-
-                        height: 514px; 
-                        width: 448px;
-
-                
-                        
+                        font-size: gv.$typography-point-above-avg;   
                     }
-
-                    .scroll {
-
-                        overflow: auto;
-                    }
-
-        
                 }
+
+                img {
+
+                    height: 514px; 
+                    width: 448px;
+
+            
+                    
+                }
+
+                .scroll {
+
+                    overflow: auto;
+                }
+
+    
             }
         }
-    
     }
 
     .pf-container {
@@ -637,10 +614,10 @@
         justify-content: center;
         align-items: center;
         
-        max-height: 420px;
-        max-width: 420px;
+        max-height: 380px;
+        
 
-        min-width: 350px;
+        max-width: 340px;
 
         overflow: hidden;
 
