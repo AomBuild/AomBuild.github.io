@@ -317,12 +317,11 @@ li {
   flex-direction: column;
   gap: 20px;
   padding: 40px 20px;
-  margin: 20px;
   justify-content: center;
   justify-items: center;
   text-align: center;
   max-width: 600px;
-  min-width: 280px;
+  width: 80%;
   height: auto;
   background-color: #ebebeb;
   border-radius: 8px;

@@ -196,18 +196,23 @@
         justify-content: space-around;
         align-items: center;
         
-        width: 90%;
+        width: 80%;
 
         padding: 20px;
         margin: 0px;
 
         .carousel-page-view {
         
-            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
             max-width: 800px;
-            min-width: 360px;
+            width: 80%;
 
             height: 80%;
+
+            clip-path: border-box ;
             
             
             border-radius: 8px;
@@ -232,7 +237,7 @@
                     height: auto;
                 }
                 
-                .carousel-img { // THIS FIXES THE ISSUE WITH IMAGES SIZES BEING WONKEY FOR THAT SINGLE IMAG
+                .carousel-img { // THIS FIXES THE ISSUE WITH IMAGES SIZES BEING WONKEY FOR THAT SINGLE IMAGES
 
                     flex-shrink: 0;        // prevent shrinking inside flex row
                 }
