@@ -2,8 +2,7 @@
 //Import Section
 
     @use './Global-Variables' as gv;
-
-
+    
 
 // #region GLOBAL TAGS
 
@@ -14,6 +13,7 @@
         align-items: center;
         
         font-family: gv.$typography-family-primary;
+        font-weight: 300;
 
         background-color: gv.$background-colour;
 
@@ -653,7 +653,22 @@
                 border: solid 1px #C9C9C9;
                 overflow: hidden;
 
-                box-shadow: gv.$card-surface;
+                box-shadow: 0 0 5px 1px gv.$card-surface;
+
+                translate: 0px 0px;
+                transition-duration: .1s;
+
+                &:hover {
+
+                    translate: 0px -12px;
+                    transition-duration: .2s;
+
+                    img {
+
+                        opacity: .4;
+                        transition-duration: .2s;
+                    }
+                }
 
                 
             

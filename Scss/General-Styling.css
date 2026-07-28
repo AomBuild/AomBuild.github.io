@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
 body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Sen", sans-serif;
+  font-weight: 300;
   background-color: #f5f5f5;
   margin: 0px;
   padding: 0px;
@@ -385,7 +386,17 @@ li {
   border-radius: 12px;
   border: solid 1px #C9C9C9;
   overflow: hidden;
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 1px 0 0px 4px rgba(0, 0, 0, 0.2);
+  translate: 0px 0px;
+  transition-duration: 0.1s;
+}
+.product-portfolio .portfolio-hero-container:hover {
+  translate: 0px -12px;
+  transition-duration: 0.2s;
+}
+.product-portfolio .portfolio-hero-container:hover img {
+  opacity: 0.4;
+  transition-duration: 0.2s;
 }
 .product-portfolio .portfolio-hero-container .portfolio-hero-heading {
   background-color: #2c2b32;
@@ -402,6 +413,7 @@ li {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8980392157);
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 .product-portfolio .portfolio-hero-container .portfolio-hero-heading a:hover {
   color: rgba(255, 255, 255, 0.6);
@@ -411,9 +423,6 @@ li {
   color: rgba(255, 255, 255, 0.8980392157);
   font-weight: 600;
   text-shadow: 0px 0px 1px;
-}
-.product-portfolio .portfolio-hero-container .portfolio-hero-heading a {
-  cursor: pointer;
 }
 .product-portfolio .portfolio-hero-container .portfolio-hero-heading p {
   font-size: 16px;
@@ -456,6 +465,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 .portfolio-other-work .portfolio-hero-container-small .portfolio-hero-heading:hover {
   background-color: #4e4d55;
@@ -474,9 +484,6 @@ li {
   color: rgba(255, 255, 255, 0.8980392157);
   text-shadow: 0px 0px 1px;
 }
-.portfolio-other-work .portfolio-hero-container-small .portfolio-hero-heading {
-  cursor: pointer;
-}
 .portfolio-other-work .portfolio-hero-container-small .portfolio-hero-heading p {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.8980392157);
@@ -487,6 +494,33 @@ li {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 16px;
+}
+
+@-webkit-keyframes roleAnimation {
+  0% {
+    transform: translateY(6px);
+  }
+  17% {
+    transform: translateY(-62px);
+  }
+  34% {
+    transform: translateY(-62px);
+  }
+  51% {
+    transform: translateY(-130px);
+  }
+  70% {
+    transform: translateY(-130px);
+  }
+  82% {
+    transform: translateY(-198px);
+  }
+  95% {
+    transform: translateY(-198px);
+  }
+  100% {
+    transform: translateY(-198px);
+  }
 }
 
 @keyframes roleAnimation {
@@ -526,11 +560,16 @@ li {
   border-bottom: solid 2px #b6b4c3;
 }
 #role-description .role-wrapper {
-  animation-name: roleAnimation;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-direction: initial;
+  -webkit-animation-name: roleAnimation;
+          animation-name: roleAnimation;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-direction: initial;
+          animation-direction: initial;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -634,4 +673,5 @@ li {
 
 .flex-left {
   flex-direction: row-reverse;
-}/*# sourceMappingURL=General-Styling.css.map */
+}
+/*# sourceMappingURL=General-Styling.css.map */

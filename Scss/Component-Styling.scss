@@ -4,6 +4,7 @@
     @use './Global-Variables' as gv;
 
 
+
 // #region COMPONENTS
 
     .navbar {
@@ -35,6 +36,31 @@
 
             float: left;
             margin-right: 20px ;
+
+            font-weight: 400;
+
+            translate: 0px 0px;
+            transition-duration: .1s;
+
+            box-sizing: border-box;
+
+            &:hover {   
+
+                font-weight: 500;
+
+                translate: 0px -2px;
+                transition-duration: .2s;
+                
+
+            }
+
+            &:active {
+
+                font-weight: 600;
+
+                translate: 0px 0px;
+                transition-duration: .2s;
+            }
         }
 
         .nav-container-parent {
