@@ -94,12 +94,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         content.innerHTML +=
             `   
-                <div class="portfolio-hero-container">
+                <div class="portfolio-hero-container" onclick="window.open('${productInfo.link}', '_blank');" >
                     <img class="portfolio-hero-image" src="${productInfo.thumbnailImage}">
 
                     <div class="portfolio-hero-heading"> 
-                        <p><a href="${productInfo.link}">${productInfo.name}</a></p> 
-                        <p style="text-decoration:underline;font-weight:400; font-size: 12px;"><a href="${productInfo.link}">View Project</p>
+                        <p>${productInfo.name}</p> 
+                        
                     </div>
                 </div>
             `
@@ -133,12 +133,12 @@ export function otherProjectsSmall(filteredElements) {
 
         content.innerHTML +=
             `   
-                <div class="portfolio-hero-container-small">
+                <div class="portfolio-hero-container-small" onclick="window.open('${productInfo.link}', '_blank');">
                     <img class="portfolio-hero-image" src="${productInfo.thumbnailImage}">
 
                     <div class="portfolio-hero-heading"> 
-                        <p><a href="${productInfo.link}">${productInfo.name}</a></p> 
-                        <p style="text-decoration:underline;font-weight:400; font-size: 12px;"><a href="${productInfo.link}">View Project</p>
+                        <p>${productInfo.name}</p> 
+    ]                   
                     </div>
                 </div>
             `

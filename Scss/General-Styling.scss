@@ -77,7 +77,7 @@
             h1 {
 
                 font-size: 20px;
-                font-weight: 800;
+                font-weight: 700;
 
                 margin: 0;
 
@@ -92,7 +92,7 @@
             h2 {
 
                 font-size: 16px;
-                font-weight: 800;
+                font-weight: 700;
 
                 margin: 0;
 
@@ -171,6 +171,29 @@
 
                 line-height: 200%;
             }
+
+    // #endregion
+
+// #endregion
+
+    // #region Text
+
+        .socialMediaIcon {
+
+            width: 40px;
+            padding: 4px;
+
+            background-color: #23262E;
+
+            box-sizing: border-box;
+            border-radius: 1000px;
+
+
+            img {
+                
+                width: 100%;
+            }
+        }
 
     // #endregion
 
@@ -658,6 +681,8 @@
                 translate: 0px 0px;
                 transition-duration: .1s;
 
+                cursor: pointer;
+
                 &:hover {
 
                     translate: 0px -12px;
@@ -688,44 +713,18 @@
 
                     }
 
-                    
-
-                    a {
-
-                        text-align: center;
-                        text-decoration: none; 
-
-                        color: gv.$high-emphasis-white;
-                        
-
-                        transition: all 0.2s ease;
-
-                        &:hover {
-
-                            color: gv.$medium-emphasis-white;
-                            text-shadow: 0px 0px .5px;
-                        }
-
-                        &:active {
-
-                            color: gv.$high-emphasis-white;
-                            font-weight: gv.$typography-weight-semi-bold;
-                            text-shadow: 0px 0px 1px;
-                        }
-
-                        cursor: pointer;
-                    }
 
                     p {
 
                         font-size: gv.$typography-point-above-avg;
                         color: gv.$high-emphasis-white;
 
-                        font-weight: gv.$typography-weight-semi-bold;
+                        font-weight: gv.$typography-weight-regular;
+                        
 
                         text-align: center;
 
-                        
+                        cursor: pointer;
                         
                     }
                 }
@@ -764,6 +763,20 @@
 
                 box-shadow: gv.$card-surface;
 
+                cursor: pointer;
+
+                &:hover {
+
+                    translate: 0px -12px;
+                    transition-duration: .2s;
+
+                    img {
+
+                        opacity: .4;
+                        transition-duration: .2s;
+                    }
+                }
+
 
                 .portfolio-hero-image {
 
@@ -784,13 +797,14 @@
                 
                     background-color: gv.$colour-cool-black-900;
                     
-                    height: 52px;
+                    height: 32px;
 
                     padding: 12px 12px;
 
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-between;
+                    
+                    justify-content: center;
 
                     
 
@@ -832,7 +846,7 @@
                     font-size: 12px;
                     color: gv.$high-emphasis-white;
 
-                    font-weight: gv.$typography-weight-medium;
+                    font-weight: gv.$typography-weight-regular;
 
                     text-align: center;
 

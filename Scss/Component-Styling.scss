@@ -39,27 +39,33 @@
 
             font-weight: 400;
 
-            translate: 0px 0px;
+            
             transition-duration: .1s;
+            scale: 1;
+            color: gv.$high-emphasis-black;
 
-            box-sizing: border-box;
+            
 
             &:hover {   
 
-                font-weight: 500;
+                font-weight: 400;
 
-                translate: 0px -2px;
+                
                 transition-duration: .2s;
+                scale: 1.05;
+                color: gv.$medium-emphasis-black;
                 
 
             }
 
             &:active {
 
-                font-weight: 600;
+                font-weight: 400;
 
-                translate: 0px 0px;
+                
                 transition-duration: .2s;
+                scale: 1;
+                color: gv.$low-emphasis-black;
             }
         }
 
