@@ -137,8 +137,7 @@ export function otherProjectsSmall(filteredElements) {
                     <img class="portfolio-hero-image" src="${productInfo.thumbnailImage}">
 
                     <div class="portfolio-hero-heading"> 
-                        <p>${productInfo.name}</p> 
-    ]                   
+                        <p>${productInfo.name}</p>                  
                     </div>
                 </div>
             `

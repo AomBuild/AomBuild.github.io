@@ -30,7 +30,7 @@
 
     section {
 
-        margin: 140px 200px 92px;
+        padding: 200px 200px 92px;
     }
 
     .no-copy {
@@ -176,28 +176,6 @@
 
 // #endregion
 
-    // #region Text
-
-        .socialMediaIcon {
-
-            width: 40px;
-            padding: 4px;
-
-            background-color: #23262E;
-
-            box-sizing: border-box;
-            border-radius: 1000px;
-
-
-            img {
-                
-                width: 100%;
-            }
-        }
-
-    // #endregion
-
-// #endregion
 
 
 // #region PAGE SET UP -> GLOBAL
@@ -490,6 +468,45 @@
 
         
     }
+
+    .socialMediaIcon {
+
+
+            box-sizing: border-box;
+            overflow: hidden;
+            border: solid 2px gv.$colour-vibe-black-800;;
+            border-radius: 8px;
+
+            background-color: gv.$high-emphasis-black;
+
+            transition-duration: .1s;
+            scale: 1;
+
+
+            img {
+                
+                width: 32px;
+                border-radius: 4px;
+            }
+
+            &:hover {
+
+                transition-duration: .1s;
+                scale: 1.1;
+
+                background-color: gv.$low-emphasis-black;
+
+            }
+
+            &:active {
+
+                transition-duration: .1s;
+                scale: .9;
+
+                background-color: gv.$medium-emphasis-black;
+
+            }
+        }
 
 // #endregion
 

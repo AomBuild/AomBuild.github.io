@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  margin: 140px 200px 92px;
+  padding: 200px 200px 92px;
 }
 
 .no-copy {
@@ -106,17 +106,6 @@ ul li a:active {
 
 li {
   line-height: 200%;
-}
-
-.socialMediaIcon {
-  width: 40px;
-  padding: 4px;
-  background-color: #23262E;
-  box-sizing: border-box;
-  border-radius: 1000px;
-}
-.socialMediaIcon img {
-  width: 100%;
 }
 
 .horizontal-align {
@@ -283,6 +272,30 @@ li {
 }
 .pf-container .pf-column .experience-text ul {
   padding-top: 12px;
+}
+
+.socialMediaIcon {
+  box-sizing: border-box;
+  overflow: hidden;
+  border: solid 2px #3b3a46;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8980392157);
+  transition-duration: 0.1s;
+  scale: 1;
+}
+.socialMediaIcon img {
+  width: 32px;
+  border-radius: 4px;
+}
+.socialMediaIcon:hover {
+  transition-duration: 0.1s;
+  scale: 1.1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.socialMediaIcon:active {
+  transition-duration: 0.1s;
+  scale: 0.9;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hero-portfolio {
