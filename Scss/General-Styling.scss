@@ -30,7 +30,9 @@
 
     section {
 
-        padding: 200px 200px 92px;
+        box-sizing: border-box;
+        padding: 200px 12px;
+        width: 100%;
     }
 
     .no-copy {
