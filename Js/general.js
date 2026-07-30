@@ -52,34 +52,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const roleDom = document.getElementById('role-description');
 
-    const roleWrapper = document.createElement("div");
-    roleWrapper.className = 'role-wrapper';
+    if(roleDom) {
 
-    const role1 = document.createElement("p");
-    role1.className = 'role-name';
-    role1.textContent = 'Product Designer';
+        const roleWrapper = document.createElement("div");
+        roleWrapper.className = 'role-wrapper';
 
-    const role2 = document.createElement("p");
-    role2.className = 'role-name';
-    role2.textContent = 'UX Designer';
+        const role1 = document.createElement("p");
+        role1.className = 'role-name';
+        role1.textContent = 'Product Designer';
 
-    const role3 = document.createElement("p");
-    role3.className = 'role-name';
-    role3.textContent = 'UI Designer';
+        const role2 = document.createElement("p");
+        role2.className = 'role-name';
+        role2.textContent = 'UX Designer';
 
-    const role4 = document.createElement("p");
-    role4.className = 'role-name';
-    role4.textContent = 'Product Designer';
+        const role3 = document.createElement("p");
+        role3.className = 'role-name';
+        role3.textContent = 'UI Designer';
+
+        const role4 = document.createElement("p");
+        role4.className = 'role-name';
+        role4.textContent = 'Product Designer';
 
 
-    roleDom.appendChild(roleWrapper);
+        roleDom.appendChild(roleWrapper);
 
-    roleWrapper.appendChild(role1);
-    roleWrapper.appendChild(role2);
-    roleWrapper.appendChild(role3);
-    roleWrapper.appendChild(role4);
+        roleWrapper.appendChild(role1);
+        roleWrapper.appendChild(role2);
+        roleWrapper.appendChild(role3);
+        roleWrapper.appendChild(role4);
 
-    console.log(document.querySelectorAll(".role-name").length + " number of roles specified");
+        console.log(document.querySelectorAll(".role-name").length + " number of roles specified");
+
+
+    } 
+    else {
+        return
+    }
+
+    
+    
 
 
 })
@@ -90,21 +101,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const content = document.querySelector(".product-portfolio");
 
-    portfolioDetails.forEach(productInfo => {
 
-        content.innerHTML +=
-            `   
-                <div class="portfolio-hero-container" onclick="window.open('${productInfo.link}', '_blank');" >
-                    <img class="portfolio-hero-image" src="${productInfo.thumbnailImage}">
+    // The If statement stops an error from occuring when 'content' doesn't exist on the portfolio pages (as its only applicable to the home page)
 
-                    <div class="portfolio-hero-heading"> 
-                        <p>${productInfo.name}</p> 
-                        
+    if(content) {
+
+        portfolioDetails.forEach(productInfo => {
+
+            content.innerHTML +=
+                `   
+                    <div class="portfolio-hero-container" onclick="window.open('${productInfo.link}', '_blank');">
+                        <img class="portfolio-hero-image" src="${productInfo.thumbnailImage}">
+
+                        <div class="portfolio-hero-heading"> 
+                            <p>${productInfo.name}</p> 
+                            
+                        </div>
                     </div>
-                </div>
-            `
-        ;
-    });
+                `
+            ;
+        });
+
+    } 
+    else {
+
+        return
+    }
 
 });
 
