@@ -1,0 +1,9 @@
+{
+    "Simple div": {
+        "prefix": "div",
+        "body": [
+            "<div>$0</div>"
+        ],
+        "description": "Insert a simple div"
+    }
+}

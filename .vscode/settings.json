@@ -1,3 +1,7 @@
 {
-    "workbench.colorCustomizations": {}
+    "workbench.colorCustomizations": {},
+    "emmet.triggerExpansionOnTab": true,
+    "editor.linkedEditing": true,
+    "html.autoClosingTags": true,
+    "html.autoCreateQuotes": true
 }

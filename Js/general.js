@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })
 
+
 // Homepage -> Portfolio catalogue LARGE
 
 document.addEventListener('DOMContentLoaded', () => {
