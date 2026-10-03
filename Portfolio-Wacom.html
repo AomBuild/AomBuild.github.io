@@ -33,14 +33,14 @@
                 <h1>Overview</h1>
 
                 <p> 
-                    This project is about the wacom product drawing tablet 'driver', this enables the tablet to be used
+                    This project is about the wacom product drawing tablet 'driver' that enables the tablet to be used
                     across various different applications <span class="italic">(Photoshop and Illustrator as just some examples).</span>
                     <br><br>
-                    The current issue is the software for the driver is confusing, which is causing friction between the intended
-                    users and the software (which bleeds through to the drawing tablet as a result).
+                    The issue is the software's user experience, which is causing friction between the target
+                    users using that tablet.
                     <br><br>
-                    The aim of this project is to rectify this by Identifying pain points, adjusting according based on research
-                    and design principles and patterns while focusing on scalability to ensure this product can grow over time.
+                    The aim is to rectify this by identifying opportunities to improve the user expeirence and structure the architecture
+                    of the software for the future.
                 </p>
 
                 <div class="portfolio-image-group#1" onload=""></div>
@@ -58,9 +58,8 @@
 
         <div class="text-detail">   
             <p> 
-                The goal was to create an experience that aided artist and designers in their 
-                work rather than impede; imposed on their productivity while not intimidating 
-                novices or even professionals, common issues are:
+                The goal is to create an experience that is easy to set up and run without the user having to focus, issues
+                present are:
                 <ol>
                     <li class="bolden-text">Clunky User Experience that confuses and frustrates market.</li> 
                     <li class="bolden-text">Interactions of websites are uninspiring and offer nothing for an expensive piece of equipment.</li>
@@ -68,8 +67,7 @@
                 </ol>
             </p>
             <p>
-                Artist tend to face these issues when using a pen display/tablet, therefore it 
-                is imperative that this issue is resolved to improve artist productivity.
+                So analysing the current set up and conducting usability test with users was the first step.
             </p>
 
         </div>
@@ -78,15 +76,10 @@
         
         <div class="text-detail">    
             <p> 
-                Well the first part of any project is to do some <span data-text-highlight>Research</span>, background 
-                Information on the topic to ensure one has a fundamental understanding of the issues out there <span class="italic">(or existing solutions).</span> This involved 
-                looking at the existing product that wacom has, identify the architecture framework and using Nielson Norman Group <span class="italic">(NN/g)</span>, Material 
-                Design principles and conducting user research to outline the current issues before any ideation or solution focus design work is done.
-                <br> <br>
-                Conducting questioners' to Identify problems then Interviews to figure out how to solve them was 
-                the first part of this project, to ensure we can figure out how our users thinks and behaves I 
-                constructed a <span data-text-highlight> User Persona</span> and a 
-                <span data-text-highlight>Empathy Map</span> to refer back to when mocking up flows and constructing the UI.
+                I analysed the <span data-text-highlight>UX architecture</span>, before making any attempt to fix the UI.
+                I could then begin to identify problems, interview user to understand their pain-points and needs, construct a
+                <span data-text-highlight> User Persona</span> and a 
+                <span data-text-highlight>Empathy Map</span> to design purposefully with intent.
             </p>
 
         </div>
@@ -102,22 +95,19 @@
 
         <div class="text-detail">   
             <p> 
-                At this stage when developing a solution to the problem uncovered, we need to do a couple things:
+                To develop a solution, it is important to do these three things:
                 <br>
                 <ol>
                     <li>
-                        Analyse the artifacts we created, if you working with a team you can quickly identify issues that
-                        others see that would take time and reflection before you see.
+                        Create UX artifacts, create soltions based on data, not just intuition.
                     </li>
                     <br>
                     <li>
-                        Looking at competitors, this allows you to see what others company's are doing in order to see what
-                        elements are required for a seamless transition and identify opportunites that competitors neglect.
+                        Analyse competitors, what they do well and poorly, one up the former and avoid any of the latter. 
                     </li>
                     <br>
                     <li>
-                        Mock up solutions, rough sketches or wireframes, here the aim is to see what we 
-                        currently understand and do not. Afterwards fill in any gaps in your knowledge, rinse and repeat.
+                        Mock up concepts for the wider team, helps to convey ideas than just words alone.
                     </li>
                 </ol>
                 
@@ -138,11 +128,9 @@
 
         <div class="text-detail">   
             <p> 
-                When starting to design, we create artifacts that could be used to understand the
-                <span data-text-highlight>current architecture</span> of the platform, 
-                afterwards it was a matter of trial and error, presenting intial rough wireframes to the user participant
-                before establishing the <span data-text-highlight>proposed architecture</span>
-                that would replace the existing system.
+                During ideating, its essential to use the artifacts you create to build from, analyse the
+                <span data-text-highlight>current architecture</span> of the platform, then devise a 
+                <span data-text-highlight>proposed architecture</span> that focus' on scalability and UX navigation.
                 
             </p>
 
@@ -162,8 +150,7 @@
 
         <div class="text-detail">   
             <p> 
-                While branding is more aligned with a UI role than UX, however while these disciplines are different, they are packaged together into a
-                UX/UI or Product designer role.
+                Brnading is aligned with graphic design than UX or UI, however aesthectics are important too.
                 <br> <br>
                 Since the UI can impact the user experience, there are necessary rules to follow either based on Material Design
                 <span class="italic">(or Microsofts' fluent alternative or the various systems out there)</span class="italic">
@@ -216,12 +203,8 @@
                    <span class="material-symbols-Rounded no-copy">Panorama_Photosphere</span>Intuituve Experience
                 </h1>
                 <p> 
-                    The aim was to simplify the overall flow for this software, less just dropping elements here and there
-                    and asking questions about how this will this change in a month, a year and so on.
-                    <br><br>
-                    All this ensured that that when crafting a journey from point A to B, it will be able to be reiterated and
-                    build upon as opposed to re-worked or faded out.
-                </p>
+                    The aim was to simplify the flow for this software and future proofing the architecture to reduce cost in overhauling
+                    the product later down the line.
 
             </div>
 
@@ -242,11 +225,8 @@
                     Here the architecture needed to be re-worked, elements needed to be grouped accordingly, not just for
                     now, but for a long time, scalability is key!
                     <br><br>
-                    Without this thought, this lead to features being either haphazardly thrown here and there, and could
-                    lead to element being loss and with Product Owner (PO's), Business Analysist (BA's) and Developers (Devs);
-                    <br><br>
-                    This 'loss' translating to loss of information, and therefore time and money spent to re-align people to 
-                    what the software does.
+                    Ignoring this leads to issues down the line with the team about the products direction; spending time and resources
+                    beacuse all of which was neglected from the start.
                 </p>
 
             </div>
@@ -265,13 +245,8 @@
                    <span class="material-symbols-Rounded no-copy">Scale</span>Scalability Over Time
                 </h1>
                 <p> 
-                    The settings page needed to be categorised and set up to allow for the drivers to scale over time. While the technology for
-                    these drivers is limited, there is always the chance for new technology or a change in the company direction which should take
-                    into account for the architecture to grow and piviot if necessary. 
-                    <br><br>
-                    Simplifying it down into sections meant these can be compartmentalised by users and therefore each have a distinct idea in their head
-                    about these sections as opposed to grouping them all under one banner with no context to what the page is about. Little details like this
-                    aid in the overall experience which promotes better adoption and usage rates by the customer base.
+                    Simplifying it down into sections means these can be compartmentalised by users, making it easier to group and understand what
+                    these sections are for. 
                 </p>
 
             </div>
@@ -289,19 +264,10 @@
                 <h1>Conclusion</h1>
 
                 <p> 
-                    Overalll this case study was a success due to the outcome that was achieved. Updating the the UX and
-                    UI to help artist in their task by not creating a system that acts as a block to their creative field,
-                    but deliveres on a software that helps enable their task.
+                    The UX was the biggest improvement with this project, conducting interviews did reveal interesting insights about
+                    how the users behaved, how little they would use this, but when they needed to it has to be simple.
                     <br><br>
-                    Some of the interviews to create the persona could of been conducted better to avoid any leading 
-                    questions, which was accidently done by priming users with an idea and leading them to the answers
-                    i perhaps wanted rather than what the user wanted <span class="italic">(unintentially).</span>
-                    <br><br>
-                    This however was addressed in follow up interviews and the data acquired through the initial interview
-                    was addressed by not anchoring back to it, and formatting my question in a neutral manner to avoid any
-                    issues with the data being bias.
-                    <br><br>
-                    However this project I was happy with the end result, even though i didn't necessarily follow material design
+                    I was happy with the end result, even though i didn't necessarily follow material design
                     patterns or NN/g in few areas because of the user feedback i received from testing in the early prototype
                     stage.
                 </p>
