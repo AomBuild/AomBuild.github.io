@@ -34,7 +34,6 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   gap: 8px;
@@ -489,7 +488,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
 }
 .portfolio-other-work .portfolio-hero-container-small .portfolio-hero-heading:hover {
   background-color: #4e4d55;
@@ -508,6 +506,9 @@ li {
   color: rgba(255, 255, 255, 0.8980392157);
   text-shadow: 0px 0px 1px;
 }
+.portfolio-other-work .portfolio-hero-container-small .portfolio-hero-heading {
+  cursor: pointer;
+}
 .portfolio-other-work .portfolio-hero-container-small .portfolio-hero-heading p {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.8980392157);
@@ -518,33 +519,6 @@ li {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 16px;
-}
-
-@-webkit-keyframes roleAnimation {
-  0% {
-    transform: translateY(6px);
-  }
-  17% {
-    transform: translateY(-62px);
-  }
-  34% {
-    transform: translateY(-62px);
-  }
-  51% {
-    transform: translateY(-130px);
-  }
-  70% {
-    transform: translateY(-130px);
-  }
-  82% {
-    transform: translateY(-198px);
-  }
-  95% {
-    transform: translateY(-198px);
-  }
-  100% {
-    transform: translateY(-198px);
-  }
 }
 
 @keyframes roleAnimation {
@@ -584,16 +558,11 @@ li {
   border-bottom: solid 2px #b6b4c3;
 }
 #role-description .role-wrapper {
-  -webkit-animation-name: roleAnimation;
-          animation-name: roleAnimation;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-direction: initial;
-          animation-direction: initial;
+  animation-name: roleAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: initial;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -697,5 +666,4 @@ li {
 
 .flex-left {
   flex-direction: row-reverse;
-}
-/*# sourceMappingURL=General-Styling.css.map */
+}/*# sourceMappingURL=General-Styling.css.map */
