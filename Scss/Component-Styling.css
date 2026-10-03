@@ -57,6 +57,7 @@
   border-radius: 4px;
   font-size: 14px;
   padding: 4px 8px;
+  min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
 }
@@ -139,8 +140,9 @@ p a:hover {
   align-items: center;
   max-width: 800px;
   width: 80%;
-  height: 80%;
-  clip-path: border-box;
+  height: 100%;
+  -webkit-clip-path: border-box;
+          clip-path: border-box;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -241,4 +243,5 @@ p a:hover {
   max-width: 80%;
   max-height: 80%;
   border-radius: 8px;
-}/*# sourceMappingURL=Component-Styling.css.map */
+}
+/*# sourceMappingURL=Component-Styling.css.map */
