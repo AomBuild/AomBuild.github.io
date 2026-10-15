@@ -9,8 +9,8 @@ export const portfolioDetails = [
         name: 'Wacom Redesign Case Study',
         description: 'Driver Software for drawing Display/Tablets',
         tags: {
-            typeIcon: 'Book',
-            type:'Case Study',
+            typeIcon: 'Workspaces',
+            type:'Software',
             participantIcon: 'Account_Circle',
             participant:'4 participants'
         },
@@ -77,7 +77,7 @@ export const portfolioDetails = [
         description: 'A website to help you pick the right wine for whatever occasion',
         tags: {
             typeIcon: 'Web',
-            type:'Website Design',
+            type:'Website',
             participantIcon: 'Account_Circle',
             participant:'2 participants'
         },
@@ -143,8 +143,8 @@ export const portfolioDetails = [
         name: 'Ascend Bouldering App',
         description: 'An app for documenting your jounrney into climbing culture',
         tags: {
-            typeIcon: 'Book',
-            type:'Case Study',
+            typeIcon: 'Mobile',
+            type:'App',
             participantIcon: 'Account_Circle',
             participant:'13 participants'
         },
