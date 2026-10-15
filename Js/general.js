@@ -116,6 +116,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         <div class="portfolio-hero-heading"> 
                             <p>${productInfo.name}</p> 
+
+                            <div class="portfolio-content" style="display:flex; flex-direction: row; justify-content:center; align-items: center">
+                                <div class="tag">
+                                    <div class="material-symbols-Rounded">
+                                        ${productInfo.tags.typeIcon}
+                                    </div>
+
+                                    <p style="color: gv.$high-emphasis-black">${productInfo.tags.type}</P>
+                                </div>
+                            </div>
                             
                         </div>
                     </div>
@@ -181,7 +191,7 @@ export function heroTemplate(portfolioDetailsPlaceholder) {
                 <section class="vertical-align " name="Hero-thumbnail">
 
                     <div class="thumbnail-Hero">
-                        <img src="${portfolioDetailsPlaceholder.heroImage}" alt="">
+                        <img src="${portfolioDetailsPlaceholder.heroImage}" alt="portfolio-image">
                     </div>
 
                     <div class="pf-page-heading">
