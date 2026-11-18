@@ -71,7 +71,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const role4 = document.createElement("p");
         role4.className = 'role-name';
-        role4.textContent = 'Product Designer';
+        role4.textContent = 'Service Designer';
+
+        const role5 = document.createElement("p");
+        role5.className = 'role-name';
+        role5.textContent = 'Product Designer';
 
 
         roleDom.appendChild(roleWrapper);
@@ -80,6 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
         roleWrapper.appendChild(role2);
         roleWrapper.appendChild(role3);
         roleWrapper.appendChild(role4);
+        roleWrapper.appendChild(role5);
 
         console.log(document.querySelectorAll(".role-name").length + " number of roles specified");
 

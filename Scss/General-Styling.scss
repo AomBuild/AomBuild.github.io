@@ -907,13 +907,15 @@
         @keyframes roleAnimation {
 
             0% {transform:translateY(6px);}
-            17% {transform: translateY(-62px);}
-            34% {transform: translateY(-62px);}
-            51% {transform:translateY(-130px);}
-            70% {transform:translateY(-130px);}
-            82% {transform:translateY(-198px);}
-            95% {transform:translateY(-198px);}
-            100% {transform:translateY(-198px);}
+            10% {transform: translateY(-62px);}
+            23% {transform: translateY(-62px);}
+            33% {transform:translateY(-130px);}
+            46% {transform:translateY(-130px);}
+            56% {transform:translateY(-198px);}
+            69% {transform:translateY(-198px);}
+            79% {transform:translateY(-266px);}
+            100% {transform:translateY(-266px);}
+
             
         }
 
