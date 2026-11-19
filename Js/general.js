@@ -23,11 +23,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
                     <li> <a href=""> About Me</a> </li>
                     <li> <a href=""> Professional Experience </a> </li>
                 </div>
+
+
+                <li><div class="cv-button"></div> </li>
                    
             -->
                 
 
-                <li><div class="cv-button"></div> </li>
+                
             </div>
 
         </ul>
